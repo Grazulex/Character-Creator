@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=3 uid="uid://ce7niqb032yym"]
+
+[ext_resource type="Script" path="res://Scripts/Skin.gd" id="1_0i1yo"]
+[ext_resource type="Texture2D" uid="uid://bes3e7mjkw80y" path="res://Assets/Skins/1.png" id="1_fcm2p"]
+[ext_resource type="Script" path="res://Scripts/Character_Creator.gd" id="1_ftn8q"]
+[ext_resource type="Texture2D" uid="uid://bs5j4c0r2h3h6" path="res://Assets/Eyes/Female/Blue.png" id="2_0o8m6"]
+[ext_resource type="Texture2D" uid="uid://d26cv6ljmigdl" path="res://Assets/Hair/Fawn/Blonde.png" id="3_8aguy"]
+[ext_resource type="Script" path="res://Scripts/Eye.gd" id="3_svcrq"]
+[ext_resource type="Texture2D" uid="uid://bev0f7dnc52ur" path="res://Assets/Clothers/Farm Red.png" id="4_nffnr"]
+[ext_resource type="Script" path="res://Scripts/Hair.gd" id="5_qoby2"]
+[ext_resource type="Script" path="res://Scripts/Clothe.gd" id="7_e3utp"]
+
+[node name="CharacterCreator" type="Node2D"]
+script = ExtResource("1_ftn8q")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.466667, 0.737255, 0.870588, 1)
+
+[node name="Skeleton" type="Node2D" parent="."]
+position = Vector2(570, 120)
+scale = Vector2(5, 5)
+
+[node name="Skin" type="Node2D" parent="Skeleton"]
+script = ExtResource("1_0i1yo")
+
+[node name="Sprite2D" type="Sprite2D" parent="Skeleton/Skin"]
+texture = ExtResource("1_fcm2p")
+hframes = 12
+vframes = 18
+
+[node name="Eye" type="Node2D" parent="Skeleton"]
+script = ExtResource("3_svcrq")
+
+[node name="Sprite2D" type="Sprite2D" parent="Skeleton/Eye"]
+texture = ExtResource("2_0o8m6")
+hframes = 12
+vframes = 18
+
+[node name="Hair" type="Node2D" parent="Skeleton"]
+script = ExtResource("5_qoby2")
+
+[node name="Sprite2D" type="Sprite2D" parent="Skeleton/Hair"]
+texture = ExtResource("3_8aguy")
+hframes = 12
+vframes = 18
+
+[node name="Clothe" type="Node2D" parent="Skeleton"]
+script = ExtResource("7_e3utp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Skeleton/Clothe"]
+texture = ExtResource("4_nffnr")
+hframes = 12
+vframes = 18

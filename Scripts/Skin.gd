@@ -22,3 +22,15 @@ func update_sprite():
 	
 	Global.selected_skin = current_sprite
 	Global.selected_skin_color = Global.skins_color_options[current_color_index]
+
+
+func _on_collection_button_pressed():
+	current_skin_index  = (current_skin_index + 1) % skin_keys.size()
+	update_sprite()
+	pass # Replace with function body.
+
+
+func _on_color_button_pressed():
+	current_color_index = (current_color_index + 1) % Global.skins_color_options.size()
+	update_sprite()
+	pass # Replace with function body.

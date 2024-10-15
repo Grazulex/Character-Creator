@@ -1,7 +1,16 @@
 extends CharacterBody2D
 
+@onready var skin = $Skeleton/Skin
+@onready var hair = $Skeleton/Hair
+@onready var eye = $Skeleton/Eye
+@onready var clothe = $Skeleton/Clothe
+@onready var name_label = $Skeleton/Name
+
 var last_direction : Vector2 = Vector2.ZERO
 const speed : int = 200
+
+func _ready():
+	initialize_player()
 
 func _physics_process(delta):
 	var direction = Vector2.ZERO
@@ -23,3 +32,18 @@ func _physics_process(delta):
 		
 	move_and_slide()
 		 
+func initialize_player():
+	skin.texture = Global.skins_collection[Global.selected_skin]
+	skin.modulate = Global.selected_skin_color
+	
+	eye.texture = Global.eyes_collection[Global.selected_eye]
+	eye.modulate = Global.selected_eye_color
+
+	hair.texture = Global.hairs_collection[Global.selected_hair]
+	hair.modulate = Global.selected_hair_color
+	
+	clothe.texture = Global.clothes_collection[Global.selected_clothe]
+	clothe.modulate = Global.selected_clothe_color
+		
+	name_label.text = Global.player_name
+	pass

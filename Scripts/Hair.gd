@@ -25,3 +25,15 @@ func update_sprite():
 	
 	Global.selected_hair = current_sprite
 	Global.selected_hair_color = Global.hairs_color_options[current_color_index]
+
+
+func _on_collection_button_pressed():
+	current_hair_index  = (current_hair_index + 1) % hair_keys.size()
+	update_sprite()
+	pass # Replace with function body.
+
+
+func _on_color_button_pressed():
+	current_color_index = (current_color_index + 1) % Global.hairs_color_options	.size()
+	update_sprite()
+	pass # Replace with function body.

@@ -60,14 +60,14 @@ var color_options = [
 	Color(1, 1, 1), #White
 ]
 
-var selected_skin : String = ""
-var selected_eye : String = ""
-var selected_hair : String = ""
-var selected_clothe : String = ""
+var selected_skin = ""
+var selected_eye = ""
+var selected_hair = ""
+var selected_clothe = ""
 
-var selected_skin_color : Color =  ""
-var selected_hair_color : Color = ""
-var selected_eye_color : Color = ""
-var selected_clothe_color : Color = ""
+var selected_skin_color =  ""
+var selected_hair_color = ""
+var selected_eye_color = ""
+var selected_clothe_color = ""
 
-var player_name : String = ""
+var player_name = ""

@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://bvo4ydpjibrde"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_3jq5g"]
-[ext_resource type="Texture2D" uid="uid://bes3e7mjkw80y" path="res://Assets/Skins/1.png" id="2_ps7h7"]
-[ext_resource type="Texture2D" uid="uid://bs5j4c0r2h3h6" path="res://Assets/Eyes/Female/Blue.png" id="3_fkv5k"]
-[ext_resource type="Texture2D" uid="uid://d26cv6ljmigdl" path="res://Assets/Hair/Fawn/Blonde.png" id="4_j8gdk"]
-[ext_resource type="Texture2D" uid="uid://bev0f7dnc52ur" path="res://Assets/Clothers/Farm Red.png" id="5_k3df3"]
+[ext_resource type="Texture2D" uid="uid://bes3e7mjkw80y" path="res://Assets/Player/Body/Skins/1.png" id="2_ps7h7"]
+[ext_resource type="Texture2D" uid="uid://bs5j4c0r2h3h6" path="res://Assets/Player/Body/Eyes/Female/Blue.png" id="3_fkv5k"]
+[ext_resource type="Texture2D" uid="uid://d26cv6ljmigdl" path="res://Assets/Player/Body/Hair/Fawn/Blonde.png" id="4_j8gdk"]
+[ext_resource type="Texture2D" uid="uid://bev0f7dnc52ur" path="res://Assets/Player/Body/Clothers/Farm Red.png" id="5_k3df3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ia65q"]
 

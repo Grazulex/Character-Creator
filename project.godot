@@ -16,7 +16,8 @@ config/features=PackedStringArray("4.2", "Forward Plus")
 
 [autoload]
 
-Global="*res://Scripts/Global.gd"
+CharacterManager="*res://00_Global/CharacterManager.gd"
+SaveManager="*res://00_Global/SaveManager.gd"
 
 [display]
 

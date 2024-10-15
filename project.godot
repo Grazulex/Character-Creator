@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Caracter Creator"
+config/name="Character Creator"
 run/main_scene="res://Scenes/Character_Creator.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 

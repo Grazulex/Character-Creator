@@ -154,7 +154,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/Skin"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "SKIN"
@@ -164,22 +165,37 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -42.0
-offset_right = 144.0
+offset_left = 3.0
+offset_top = -46.0
+offset_right = 147.0
+offset_bottom = -4.0
 grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "SKIN TONE"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/Skin"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/Skin"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/Skin"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/Skin"]
 layout_mode = 1
@@ -205,7 +221,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/Hair"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "HAIR"
@@ -221,16 +238,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/Hair"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/Hair"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/Hair"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/Hair"]
 layout_mode = 1
@@ -260,7 +290,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/Eye"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "EYE"
@@ -276,16 +307,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/Eye"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/Eye"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/Eye"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/Eye"]
 layout_mode = 1
@@ -311,8 +355,10 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/Clothe"]
 layout_mode = 0
-offset_right = 144.0
-offset_bottom = 42.0
+offset_left = 10.0
+offset_top = 1.0
+offset_right = 154.0
+offset_bottom = 43.0
 theme_override_font_sizes/font_size = 25
 text = "CLOTHE"
 
@@ -327,16 +373,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/Clothe"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/Clothe"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/Clothe"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/Clothe"]
 layout_mode = 1
@@ -362,7 +421,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/SkinPortrait"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "SKIN"
@@ -378,16 +438,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "SKIN TONE"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/SkinPortrait"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/SkinPortrait"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/SkinPortrait"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/SkinPortrait"]
 layout_mode = 1
@@ -413,7 +486,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/HairPortrait"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "HAIR"
@@ -429,16 +503,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/HairPortrait"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/HairPortrait"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+	"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/HairPortrait"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/HairPortrait"]
 layout_mode = 1
@@ -468,7 +555,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/EyePortrait"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "EYE"
@@ -484,16 +572,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/EyePortrait"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/EyePortrait"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/EyePortrait"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/EyePortrait"]
 layout_mode = 1
@@ -519,7 +620,8 @@ color = Color(1, 1, 1, 0)
 
 [node name="Label" type="Label" parent="CreateScreen/ColorRect/ClothePortrait"]
 layout_mode = 0
-offset_right = 144.0
+offset_left = 10.0
+offset_right = 154.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 25
 text = "CLOTHE"
@@ -535,16 +637,29 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 25
 text = "COLOR"
 
-[node name="CollectionButton" type="Button" parent="CreateScreen/ColorRect/ClothePortrait"]
+[node name="CollectionButtonUp" type="Button" parent="CreateScreen/ColorRect/ClothePortrait"]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -200.0
+offset_left = -77.0
+offset_right = -2.0
 offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 25
-text = "->"
+text = "+"
+
+[node name="CollectionButtonDown" type="Button" parent="CreateScreen/ColorRect/ClothePortrait"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -197.0
+offset_right = -122.0
+offset_bottom = 50.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 25
+text = "-"
 
 [node name="ColorButton" type="Button" parent="CreateScreen/ColorRect/ClothePortrait"]
 layout_mode = 1
@@ -590,21 +705,29 @@ theme_override_font_sizes/font_size = 25
 text = "LOAD"
 
 [connection signal="text_changed" from="CreateScreen/ColorRect/Details/TextEdit" to="." method="_on_text_edit_text_changed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/Skin/CollectionButton" to="Skeleton/Skin" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Skin/CollectionButtonUp" to="Skeleton/Skin" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Skin/CollectionButtonDown" to="Skeleton/Skin" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/Skin/ColorButton" to="Skeleton/Skin" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/Hair/CollectionButton" to="Skeleton/Hair" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Hair/CollectionButtonUp" to="Skeleton/Hair" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Hair/CollectionButtonDown" to="Skeleton/Hair" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/Hair/ColorButton" to="Skeleton/Hair" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/Eye/CollectionButton" to="Skeleton/Eye" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Eye/CollectionButtonUp" to="Skeleton/Eye" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Eye/CollectionButtonDown" to="Skeleton/Eye" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/Eye/ColorButton" to="Skeleton/Eye" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/Clothe/CollectionButton" to="Skeleton/Clothe" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Clothe/CollectionButtonUp" to="Skeleton/Clothe" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/Clothe/CollectionButtonDown" to="Skeleton/Clothe" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/Clothe/ColorButton" to="Skeleton/Clothe" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/SkinPortrait/CollectionButton" to="Portrait/Skin" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/SkinPortrait/CollectionButtonUp" to="Portrait/Skin" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/SkinPortrait/CollectionButtonDown" to="Portrait/Skin" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/SkinPortrait/ColorButton" to="Portrait/Skin" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/HairPortrait/CollectionButton" to="Portrait/Hair" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/HairPortrait/CollectionButtonUp" to="Portrait/Hair" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/HairPortrait/CollectionButtonDown" to="Portrait/Hair" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/HairPortrait/ColorButton" to="Portrait/Hair" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/EyePortrait/CollectionButton" to="Portrait/Eye" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/EyePortrait/CollectionButtonUp" to="Portrait/Eye" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/EyePortrait/CollectionButtonDown" to="Portrait/Eye" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/EyePortrait/ColorButton" to="Portrait/Eye" method="_on_color_button_pressed"]
-[connection signal="pressed" from="CreateScreen/ColorRect/ClothePortrait/CollectionButton" to="Portrait/Clothe" method="_on_collection_button_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/ClothePortrait/CollectionButtonUp" to="Portrait/Clothe" method="_on_collection_button_up_pressed"]
+[connection signal="pressed" from="CreateScreen/ColorRect/ClothePortrait/CollectionButtonDown" to="Portrait/Clothe" method="_on_collection_button_down_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/ClothePortrait/ColorButton" to="Portrait/Clothe" method="_on_color_button_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/SaveButton" to="." method="_on_save_button_pressed"]
 [connection signal="pressed" from="CreateScreen/ColorRect/LoadButton" to="." method="_on_load_button_pressed"]

@@ -27,13 +27,19 @@ func update_sprite():
 	CharacterManager.selected_portrait_eye_color = CharacterManager.color_options[current_color_index]
 
 
-func _on_collection_button_pressed():
-	current_eye_index  = (current_eye_index + 1) % eye_keys.size()
+func _on_color_button_pressed():
+	current_color_index = (current_color_index + 1) % CharacterManager.color_options.size()
 	update_sprite()
 	pass # Replace with function body.
 
 
-func _on_color_button_pressed():
-	current_color_index = (current_color_index + 1) % CharacterManager.color_options.size()
-	update_sprite()
+func _on_collection_button_up_pressed():
+	current_eye_index  = (current_eye_index + 1) % eye_keys.size()
+	update_sprite()	
+	pass # Replace with function body.
+
+
+func _on_collection_button_down_pressed():
+	current_eye_index  = (current_eye_index - 1) % eye_keys.size()
+	update_sprite()	
 	pass # Replace with function body.

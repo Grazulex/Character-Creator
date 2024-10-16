@@ -23,13 +23,19 @@ func update_sprite():
 	CharacterManager.selected_player_skin_color = CharacterManager.skins_color_options[current_color_index]
 
 
-func _on_collection_button_pressed():
-	current_skin_index  = (current_skin_index + 1) % skin_keys.size()
+func _on_color_button_pressed():
+	current_color_index = (current_color_index + 1) % CharacterManager.skins_color_options.size()
 	update_sprite()
 	pass # Replace with function body.
 
 
-func _on_color_button_pressed():
-	current_color_index = (current_color_index + 1) % CharacterManager.skins_color_options.size()
+func _on_collection_button_down_pressed():
+	current_skin_index  = (current_skin_index - 1) % skin_keys.size()
+	update_sprite()
+	pass # Replace with function body.
+
+
+func _on_collection_button_up_pressed():
+	current_skin_index  = (current_skin_index + 1) % skin_keys.size()
 	update_sprite()
 	pass # Replace with function body.
